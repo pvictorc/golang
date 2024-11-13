@@ -5,7 +5,14 @@ package main
 import "fmt"
 
 func main() {
-  fmt.Println("Hello world :]")
+  var product string = "T-shirt"
+//   var cost int = 20
 
-  fmt.Println("Second line\nThird line")
+  cost := 20
+
+  fmt.Println("product is a:",product)
+  fmt.Println("product's cost is:",cost)
+  fmt.Printf("cost type is: %T\n",cost)
+
 }
+
